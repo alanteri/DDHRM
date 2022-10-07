@@ -77,9 +77,9 @@ ddhrm_llr_test(mean_function=function(beta,X){beta[1]+beta[2]*X},
 # # entry of one of the tables in the manuscript.
 # # WARNING: it may take more than 30minutes for a single entry
 #
-# MCMC_ITER=10000
-# LR_tests=rep(NA,MCMC_ITER)
-# for (i in 1:MCMC_ITER) {
+# ITER=10000
+# LR_tests=rep(NA,ITER)
+# for (i in 1:ITER) {
 #   LR_tests[i]=ddhrm_llr_test(mean_function=function(beta,X){beta[1]+beta[2]*X}, 
 #                              h_function=function(gamma,X){exp(gamma*X)},        
 #                              beta=c(1,1),                                       
